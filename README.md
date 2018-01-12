@@ -1,2 +1,2 @@
 # rg-rules
-GitHub Pages
+[GitHub Pages](https://cloudcats.github.io/rg-rules/)
