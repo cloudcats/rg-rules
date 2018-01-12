@@ -1,0 +1,396 @@
+{
+  "settings": {
+    "name": "NewSite-01-09_1014",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "unicore",
+      "title": "Unicore",
+      "styling": {
+        "primaryColor": "#29d9c2",
+        "successColor": "#7ac673",
+        "infoColor": "#27aae0",
+        "warningColor": "#faaf40",
+        "dangerColor": "#f97352",
+        "titleFont": "Montserrat",
+        "textFont": "Raleway",
+        "isSquareButtons": false
+      }
+    },
+    "versionFirst": "3.12.1",
+    "uniqCompNum": 22,
+    "versionPublish": "3.12.1",
+    "path": "@PROJECT_PATH@"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header8",
+          "_styles": {
+            "P": {
+              "font-size": "18px"
+            },
+            "H3": {
+              "font-size": "72px"
+            }
+          },
+          "_anchor": "header8-9",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "parallax": false,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1333.jpg",
+            "bgColor": "#4c6972",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.8",
+            "overlayColor": "#151515",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "showMedia": true
+          },
+          "title": "#Regelwerk",
+          "text": "Willkommen Anwärter. Lies dir aufmerksam die Regeln durch und begib dich anschließend in die <b>#Eingangshalle. </b><br><br>Wende dich dort an den diensthabenden Rekrutierungsoffizier, um Zugang zur unteren Ebene zu erhalten.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-lg btn-primary\" data-toolbar=\"-mbrBtnMove\">Purchase Now <i class=\"fa fa-shopping-basket\"></i></a>",
+          "media": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img hl-image",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/logo2-1400x1400.png",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          }
+        },
+        {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box17",
+          "_styles": {
+            "SPAN": {
+              "font-size": "36px"
+            },
+            "P": {
+              "color": "#ffffff"
+            },
+            "DIV": {
+              "font-family": "'Raleway', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
+            },
+            "H3": {
+              "font-family": "'Raleway', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
+              "text-align": "center"
+            },
+            "B": {
+              "font-family": "'Raleway', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
+            }
+          },
+          "_anchor": "msg-box17-4",
+          "_params": {
+            "elements": "4",
+            "paddingTop": "2",
+            "paddingBottom": "1",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColor": "#222",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#151515",
+            "showTitles": true,
+            "showSubtitle": true,
+            "showText": true
+          },
+          "button1": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-circle btn-info\" data-toggle=\"tab\" href=\"#menu1-1\" data-toolbar=\"-mbrBtnMove\"><i class=\"fa fa-info fa-3x\"></i></a>",
+          "title1": "Informiere dich",
+          "button2": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-default btn-circle\" data-toggle=\"tab\" href=\"#menu2-1\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-users mbr-iconfont mbr-iconfont-btn\"></span></a>  ",
+          "title2": "vernetze dich",
+          "button3": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-default btn-circle\" data-toggle=\"tab\" href=\"#menu3-1\"><i class=\"fa fa-image fa-3x\"></i></a>",
+          "title3": "Teile Medien",
+          "button4": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-default btn-circle\" data-toggle=\"tab\" href=\"#menu4-1\"><i class=\"fa fa-check fa-3x\"></i></a>",
+          "title4": "BEWEGE ETWAS",
+          "button5": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-default btn-circle\" data-toggle=\"tab\" href=\"#menu5-1\"><i class=\"fa fa-star fa-3x\"></i></a>",
+          "title5": "Upload<br />information",
+          "subtitle1": "<br>Sei gegrüßt, Anwärter!<br> Willkommen auf dem größten patriotischen Discord-Server Deutschlands!<br><span style=\"font-size: 24px; letter-spacing: -1px; line-height: 1.1; background-color: inherit;\">Lies dir bitte die folgenden Regeln und Hinweise aufmerksam durch:</span><br>",
+          "text1": "",
+          "subtitle2": "Fill description",
+          "text2": "Nam sed mollis nisi. Praesent laoreet imperdiet est eget viverra. Aliquam ultrices euismod pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed pellentesque nibh eros, sed semper metus interdum nec. Aliquam erat volutpat. Morbi ut lectus venenatis, rutrum nunc ut, consectetur purus. Praesent ultrices sapien quam, non elementum metus sagittis id. Quisque rutrum, ex sed ultrices congue, ante nulla varius ipsum, id malesuada lorem justo eget sem. Aliquam erat volutpat. Curabitur a libero sem. Donec pulvinar aliquet dui, non varius ipsum ultricies sed. Praesent molestie arcu arcu, eu fermentum justo malesuada ut.",
+          "subtitle3": "Upload Images",
+          "text3": "Nam sed mollis nisi. Praesent laoreet imperdiet est eget viverra. Aliquam ultrices euismod pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed pellentesque nibh eros, sed semper metus interdum nec. Aliquam erat volutpat. Morbi ut lectus venenatis, rutrum nunc ut, consectetur purus. Praesent ultrices sapien quam, non elementum metus sagittis id. Quisque rutrum, ex sed ultrices congue, ante nulla varius ipsum, id malesuada lorem justo eget sem. Aliquam erat volutpat. Curabitur a libero sem. Donec pulvinar aliquet dui, non varius ipsum ultricies sed. Praesent molestie arcu arcu, eu fermentum justo malesuada ut.",
+          "subtitle4": "Save Result",
+          "text4": "Nam sed mollis nisi. Praesent laoreet imperdiet est eget viverra. Aliquam ultrices euismod pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed pellentesque nibh eros, sed semper metus interdum nec. Aliquam erat volutpat. Morbi ut lectus venenatis, rutrum nunc ut, consectetur purus. Praesent ultrices sapien quam, non elementum metus sagittis id. Quisque rutrum, ex sed ultrices congue, ante nulla varius ipsum, id malesuada lorem justo eget sem. Aliquam erat volutpat. Curabitur a libero sem. Donec pulvinar aliquet dui, non varius ipsum ultricies sed. Praesent molestie arcu arcu, eu fermentum justo malesuada ut.",
+          "subtitle5": "Upload Information",
+          "text5": "Nam sed mollis nisi. Praesent laoreet imperdiet est eget viverra. Aliquam ultrices euismod pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed pellentesque nibh eros, sed semper metus interdum nec. Aliquam erat volutpat. Morbi ut lectus venenatis, rutrum nunc ut, consectetur purus. Praesent ultrices sapien quam, non elementum metus sagittis id. Quisque rutrum, ex sed ultrices congue, ante nulla varius ipsum, id malesuada lorem justo eget sem. Aliquam erat volutpat. Curabitur a libero sem. Donec pulvinar aliquet dui, non varius ipsum ultricies sed. Praesent molestie arcu arcu, eu fermentum justo malesuada ut."
+        },
+        {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content7",
+          "_styles": {
+            "H4": {
+              "color": "#29d9c2"
+            },
+            "P": {
+              "color": "#ffffff"
+            }
+          },
+          "_anchor": "content7-h",
+          "_params": {
+            "blocks": "5",
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "file:///C:/Users/Windows/AppData/Local/Mobirise.com/Mobirise/projectData/1_1.jpg",
+            "bgColor": "#222222",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#151515",
+            "icon1": "fa-exclamation",
+            "icon2": "fa-exclamation",
+            "icon3": "fa-exclamation",
+            "icon4": "fa-exclamation",
+            "icon5": "fa-exclamation"
+          },
+          "title1": "Regel 1",
+          "text1": "Reconquista Germanica&nbsp;ist ein satirisches Internet-Projekt ohne Bezug zur realen Welt. Ähnlichkeiten mit real existierenden Personen, Institutionen oder Titeln sind rein zufällig<b>.</b>",
+          "title2": "Regel 2",
+          "text2": "Von Mitgliedern des Servers wird ein ordentliches Erscheinungsbild in Wort und Schrift erwartet. Name und Avatar sind dementsprechend zu gestalten.",
+          "title3": "Regel 3",
+          "text3": " Ungebührliches Verhalten, das geeignet ist, die Bewegung zu schädigen oder die Existenz des Servers zu gefährden, ist untersagt.",
+          "title4": "Regel 4",
+          "text4": "Die Gesetze und Regelungen der Bundesrepublik Deutschland sind einzuhalten. Bestrebungen, die gegen die freiheitlich-demokratische Grundordnung gerichtet sind, sowie strafrechtlich relevante Inhalte werden nicht toleriert.",
+          "title5": "Regel 5",
+          "text5": "Die Discord Community-Richtlinien sind einzuhalten."
+        },
+        {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content7",
+          "_styles": {
+            "H4": {
+              "color": "#29d9c2"
+            },
+            "P": {
+              "color": "#ffffff"
+            }
+          },
+          "_anchor": "content7-i",
+          "_params": {
+            "blocks": "5",
+            "paddingTop": "0",
+            "paddingBottom": 2,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "file:///C:/Users/Windows/AppData/Local/Mobirise.com/Mobirise/projectData/1_1.jpg",
+            "bgColor": "#222222",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#151515",
+            "icon1": "fa-exclamation",
+            "icon2": "fa-exclamation",
+            "icon3": "fa-exclamation",
+            "icon4": "fa-exclamation",
+            "icon5": "fa-exclamation"
+          },
+          "title1": "Regel 6",
+          "text1": "Die Freiheit des weltanschaulichen Bekenntnisses ist zu respektieren. Andere Mitglieder sind in erster Linie Kameraden im Kampf gegen den gemeinsamen Feind. Einigkeit herzustellen und zu erhalten muss oberste Maxime sein. Intoleranz gegenüber seinen Kameraden ist Toleranz gegenüber dem Feind. Versuche, die Gemeinschaft zu spalten, werden als Sabotage gewertet.",
+          "title2": "Regel 7",
+          "text2": "Das Anfertigen von Audio-Mitschnitten, Screenshots und die Weitergabe von Server-internen Informationen ist strengstens untersagt. Von allen Mitgliedern des Servers wird Diskretion erwartet.",
+          "title3": "Regel 8",
+          "text3": "Den Anweisungen von Vorgesetzten ist Folge zu leisten.",
+          "title4": "Regel 9",
+          "text4": "Sprach- und Textkanäle sind ihrer definierten Bestimmung gemäß zu nutzen. Die Bestimmungen einen spezifischen Textkanal betreffend können nach Auswahl des Kanals durch Klick auf den Beschreibungstext oben in der Mitte eingesehen werden.",
+          "title5": "Regel 10",
+          "text5": "Mutwilliges Stiften von Unruhe, Spam, Getrolle, Versuche der Sabotage und ungebührliches Verhalten gegenüber den Kameraden ist untersagt. Zuwiderhandlungen und verdächtiges Verhalten sind einem diensthabenden Feldjäger zu melden."
+        },
+        {
+          "media1": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img img-responsive post-thumb",
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/blog/1.jpg"
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title1": "Bakery egg foods around the world",
+          "info1": "<i class=\"fa fa-user\"></i> <a href=\"#\">John Doe</a> &nbsp;&nbsp;<i class=\"fa fa-clock-o\"></i> April 21, 2016 &nbsp;&nbsp;<i class=\"fa fa-comments\"></i> <a href=\"#\">8 Comments</a>",
+          "media2": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img img-responsive post-thumb",
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/blog/2.jpg"
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title2": "Bakery egg foods around the world",
+          "info2": "<i class=\"fa fa-user\"></i> <a href=\"#\">John Doe</a> &nbsp;&nbsp;<i class=\"fa fa-clock-o\"></i> April 21, 2016 &nbsp;&nbsp;<i class=\"fa fa-comments\"></i> <a href=\"#\">8 Comments</a>",
+          "text2": "<p>Nulla pharetra porttitor justo eu maximus. Curabitur cursus at lectus at tristique. Curabitur vehicula augue eget magna finibus, nec lobortis ligula interdum. Quisque in tellus augue.</p><a href=\"./blog-single.html\" class=\"rmore mbr-primary-color mbr-title-font\">Continue reading <i class=\"fa fa-angle-right\"></i></a>",
+          "media3": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img img-responsive post-thumb",
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/blog/3.jpg"
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title3": "Bakery egg foods around the world",
+          "info3": "<i class=\"fa fa-user\"></i> <a href=\"#\">John Doe</a> &nbsp;&nbsp;<i class=\"fa fa-clock-o\"></i> April 21, 2016 &nbsp;&nbsp;<i class=\"fa fa-comments\"></i> <a href=\"#\">8 Comments</a>",
+          "text3": "<p>Nulla pharetra porttitor justo eu maximus. Curabitur cursus at lectus at tristique. Curabitur vehicula augue eget magna finibus, nec lobortis ligula interdum. Quisque in tellus augue.</p><a href=\"./blog-single.html\" class=\"rmore mbr-primary-color mbr-title-font\">Continue reading <i class=\"fa fa-angle-right\"></i></a>",
+          "media4": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img img-responsive post-thumb",
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/blog/4.jpg"
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title4": "Bakery egg foods around the world",
+          "info4": "<i class=\"fa fa-user\"></i> <a href=\"#\">John Doe</a> &nbsp;&nbsp;<i class=\"fa fa-clock-o\"></i> April 21, 2016 &nbsp;&nbsp;<i class=\"fa fa-comments\"></i> <a href=\"#\">8 Comments</a>",
+          "text4": "<p>Nulla pharetra porttitor justo eu maximus. Curabitur cursus at lectus at tristique. Curabitur vehicula augue eget magna finibus, nec lobortis ligula interdum. Quisque in tellus augue.</p><a href=\"./blog-single.html\" class=\"rmore mbr-primary-color mbr-title-font\">Continue reading <i class=\"fa fa-angle-right\"></i></a>",
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box23",
+          "_styles": {
+            "P": {
+              "color": "#03a9f4"
+            },
+            "H1": {
+              "color": "#03a9f4"
+            },
+            "H2": {
+              "color": "#03a9f4"
+            },
+            "H3": {
+              "color": "#03a9f4"
+            }
+          },
+          "_anchor": "msg-box23-j",
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "4",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColor": "#222222",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#151515"
+          },
+          "text1": "<h2><b>Die Verletzung der Regeln kann zur Degradierung bis hin zu einer dauerhaften Verbannung führen!</b></h2><h2><b><br></b></h2><h2><b> </b></h2><p>Mitglieder, die aufgrund ihres Fehlverhaltens dem Bewährungsbataillon zugeteilt wurden, haben die Möglichkeit, sich in der <b>#bewaehrungshilfe</b> rechtliches Gehör zu verschaffen, um rehabilitiert zu werden.</p><p>Nach dem Lesen der Regeln darfst Du Dich bei EINEM der diensthabenden @Rekrutierung welche in der Leiste rechts angezeigt werden und deren Verfügbarkeit durch einen grünen Punkt signalisiert wird, zum Rekruten bewerben. Während des Wartens auf die Bearbeitung Deiner Bewerbung sollst Du Dich mit den Funktionalitäten von Discord vertraut machen.</p><p>Um Trolle, Agenten und Linksterroristen abzuwehren und eine sichere Gemeinschaft aufzubauen ist es erforderlich Deine Identität zu verifizieren, das konkrete Prozedere wird Dir von Deinem zuständigen @Rekrutierung mitgeteilt. Sollte ein höherrangiges Mitglied für Dich bürgen, so zeige dies in der Bewerbung an.(bearbeitet)</p><p>Bewerbungen für den Rang des Gefreiten sind an <b>@Kundenberater Altrechts</b> zu schreiben. Lese dir dafür zunächst den Textkanal <b>#rekrutierungsbüro</b> sorgfältig durch. Voraussetzung ist eine funktionierende Kommunikationsausrüstung!</p><p>Von Gefreiten wird ordentliches Betragen, Sachverstand, regelmäßige Anwesenheit, Vertrauenswürdigkeit und Mitarbeit erwartet. Sie sind das Rückgrat der Bewegung und repräsentieren die Gemeinschaft. Nicht jeder ist für den Rang des Gefreiten geeignet.</p><p>Wendet euch mit Fragen und Problemen an diensthabende Feldjäger. Spezialisten,Offiziere, Generäle, Paladine oder gar den Oberbefehlshaber ohne triftigen Grund zu belästigen, ist streng untersagt. Der Dienstweg ist einzuhalten!</p><p>Als Nachweis dafür, dass Ihr die Regeln gelesen habt, kopiert bitte den folgenden Satz und fügt ihn bei Eurer Bewerbung zum Rekruten mit ein: \"Das ist alternativlos!\"</p><p>Patreons und Fördermitglieder der Reconquista Germanica melden sich bitte direkt beim Chef, um für die Patreon-Lounge freigeschaltet zu werden. Patreons und Fördermitglieder anderer anerkannter Youtuber wenden sich bitte direkt an diese.</p><p><br></p><p><b>Achtung</b>: Der rote Button \"<b>Server verlassen</b>\" führt zu einer automatischen und vollständigen Degradierung!</p><p><br></p><p></p><h3><b>Wir wünschen einen angenehmen Aufenthalt</b></h3><a href=\"./blog-single.html\" class=\"rmore mbr-primary-color mbr-title-font\" style=\"letter-spacing: 0.5px;\"></a><p></p>"
+        },
+        {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-7",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColor": "#111",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#151515"
+          },
+          "text": "© 2018. Reconquista Germanica. All rights reserved."
+        }
+      ]
+    }
+  }
+}
